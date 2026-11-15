@@ -1,0 +1,24 @@
+{
+  "name": "breach-point",
+  "version": "1.0.0",
+  "description": "Siege-inspired tactical FPS in the browser",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/three": "^0.164.1",
+    "typescript": "^5.6.3",
+    "vite": "^5.4.20",
+    "vite-plugin-singlefile": "^2.3.3"
+  },
+  "dependencies": {
+    "three": "^0.164.1"
+  }
+}
